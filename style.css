@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url("https://fonts.google.com/specimen/Open+Sans");
+}
+:root {
+    --brown: hsl(30, 36%, 71%);
+    --lime-green: #3a6814;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--brown);
+    font-family: Open-Sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: url("brown-image.jpg") center/cover fixed no-repeat;    
+}
+
+
+
+#counter-text{
+    color: white;
+}
+
+
+#wrapper {
+    padding: 25px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+    
+}
+
+#lower-count, #add-count{
+    padding: 10px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+    border: none;
+    background-color: #0d2c54;
+    color: white;
+    font-size: 1rem;
+    border-radius: 3px;
+    
+}
+
+#counter {
+    color: var(--lime-green);
+    font-size: 7rem;
+}
+
+
+
